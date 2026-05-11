@@ -1,5 +1,5 @@
 {
-  "name": "https://redesigned-barnacle-wv7qx5g7xqjr2v6g.github.dev/",
+  "name": "https://redesigned-dollop-r7v55v7vw473wjp.github.dev/",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "https://redesigned-barnacle-wv7qx5g7xqjr2v6g.github.dev/",
+      "label": "https://redesigned-dollop-r7v55v7vw473wjp.github.dev/",
       "protocol": "http",
       "onAutoForward": "silent"
     }
